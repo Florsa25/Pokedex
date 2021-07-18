@@ -1,0 +1,343 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    box-sizing:border-box;
+    background-image: url('./76303.jpg');
+    background-size:cover;
+} 
+
+.main{
+    width:70%;
+    margin:auto;
+    margin-top:100px;
+    border: 1px solid #b0b0b0;
+    border-radius:10px;
+    height:500px;
+    overflow: hidden;
+    background-color: #ef5350;
+    border: 6px solid #fff;
+}
+
+.start{
+    background-color: #ef5350;
+    display:none;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    z-index:1;
+    position:fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+
+}
+
+.overlay{
+    background-color: rgba(255,255,255, 0.7);
+    position: fixed;
+    top: 0;
+    left:0;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100vw;
+    display:none;
+}
+
+.overlayOn{
+    display:flex;
+}
+
+.main-head{
+    background-color:#ef5350;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #fff;
+    
+}
+
+.search{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width:50%;
+}
+
+.logo{
+    padding-right:80px;
+    padding-top:10px;
+    height:80px;
+}
+
+.main-poke-img-place{
+    background-color: #b0b0b0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width:300px;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #fff;
+}
+
+.main-poke-img-place-img{
+    background-image: url('./repeated-square.png');
+    width:230px;
+    height:230px;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.main-title{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:25px;
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    color:#fff;
+}
+
+.button{
+    background-color: #1D2B81;
+    color:#F9C23F;
+    border-radius:50%;
+    border:2px solid #0b165d;
+    font-weight:700;
+    font-size:18px;
+    box-shadow: 2px 0px 0px 0px #0b165d;
+}
+
+.button-search{
+    width: 48px;
+    height:48px;
+}
+
+.button-start{
+    width:60px;
+    height: 50px;
+}
+
+.button:hover{
+    background-color: #15205e;
+    cursor:pointer;
+
+}
+
+
+.main-head-input{
+    line-height: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:5px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:0px;
+    border-radius:4px;
+    height:35px;
+    width:280px;
+}
+
+.main-poke{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    height:440px;
+    width:100%;
+}
+
+.main-poke-info{
+    width:600px;
+    height:300px;
+    background-color: #fff;
+    padding:25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:10px solid #b0b0b0;
+    box-sizing: border-box;
+}
+
+.fire{
+    background-color: #FF6144;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.normal{
+    background-color: #B7B7A9;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fighting{
+    background-color: #C56F61;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.flying{
+    background-color: #9aa9ff;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.poison{
+    background-color: #B76FA9;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ground{
+    background-color: #E2C56F;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+} 
+
+.rock{
+    background-color: #C5B77D;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.bug{
+    background-color: #B7C544;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ghost{
+    background-color: #7D7DC5;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.steel{
+    background-color: #B7B7C5;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+.water{
+    background-color: #51A8FF;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.grass{
+    background-color: #8CD46F;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.electric{
+    background-color: #FFD452;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.psychic{
+    background-color: #FF6FA9;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ice{
+    background-color: #7DD4FF;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.dragon{
+    background-color: #8C7DF1;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.dark{
+    background-color: #8C6F61;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fairy{
+    background-color: #F1A9F1;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.unknown{
+    background-color: #111;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.shadow{
+    background-color: #111;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
